@@ -2,6 +2,7 @@
 /** Line-chart and donut-chart made by @kseso http://codepen.io/Kseso/pen/phiyL **/
 
 
+
 /************************************ FONTS ************************************/
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
 @import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome|zocial);
@@ -222,12 +223,12 @@ h1, h2, p, a, span{
 }
 	.big-profile-picture {
 		margin: 0 auto;		
-		border: 5px solid #50597b;
+		border: 5px solid #ffccff;
 		width: 150px;
 		height: 150px;
 	}
 	.small-profile-picture {
-		border: 2px solid #50597b;
+		border: 2px solid #ffccff;
 		width: 40px;
 		height: 40px;
 	}
@@ -239,7 +240,10 @@ h1, h2, p, a, span{
 	font-family: 'Ubuntu', sans-serif;
 	width: 950px;
 	height: 1725px;
-	margin: 6em auto;
+	margin-top: 6em;
+  margin-bottom: 6em;
+  margin-left: 9em;
+  margin-right: ;
 }	
 	/*********************************************** HEADER ***********************************************/
 	header {
@@ -325,7 +329,7 @@ h1, h2, p, a, span{
 				height: 360px;
 			}
 				.menu-box .titular {
-					background: #11a8ab;
+					background: #990099;
 				}
 				.menu-box-menu .icon {
 					display: inline-block;
@@ -337,7 +341,7 @@ h1, h2, p, a, span{
 				.menu-box-number {
 					width: 36px;
 					line-height: 22px;
-					background: #50597b;
+					background: #990099;
 					text-align: center;
 					border-radius: 15px;
 					position: absolute;
@@ -348,18 +352,17 @@ h1, h2, p, a, span{
 				}
 				.menu-box-menu li{
 					height: 60px;
-					position: relative;										
+					position: relative;	
+          background-color: #cc00cc;
 				}
 				.menu-box-tab {
 					line-height: 60px;
 					display: block;
-					border-bottom: 1px solid #1f253d;
-					-webkit-transition: background .2s;
-					transition: background .2s;
+					border-bottom: 1px solid #ffccff;
 				}
 					.menu-box-tab:hover {
-						background: #50597b;
-						border-top: 1px solid #1f253d;
+						background: #ffccff;
+						border-top: 1px solid #ffccff;
 						text-decoration: none;
 					}
 					.menu-box-tab:hover .icon {
@@ -418,6 +421,7 @@ h1, h2, p, a, span{
 					    width: 100%;
 					    font-family: monospace;
 					    font-size: 1.5rem;
+            
 					  }
 					#porcion1 {
 					    -webkit-transform: rotate(0deg);
@@ -425,7 +429,7 @@ h1, h2, p, a, span{
 					  }
 
 					#porcion1 .quesito {
-					    background-color: #E64C65;
+					    background-color: #e600e6;
 					    -webkit-transform: rotate(76deg);
 					    transform: rotate(76deg);
 					  }
@@ -434,7 +438,7 @@ h1, h2, p, a, span{
 					    transform: rotate(76deg);
 					  }
 					#porcion2 .quesito {
-					    background-color: #11A8AB;
+					    background-color: #b300b3;
 					    -webkit-transform: rotate(140deg);
 					    transform: rotate(140deg);
 					  }
@@ -443,7 +447,7 @@ h1, h2, p, a, span{
 					    transform: rotate(215deg);
 					  }
 					#porcion3 .quesito {
-					    background-color: #4FC4F6;
+					    background-color: #800080;
 					    -webkit-transform: rotate(113deg);
 					    transform: rotate(113deg);
 					  }
@@ -452,7 +456,7 @@ h1, h2, p, a, span{
 					    transform:rotate(-32deg);
 					  }
 					#porcionFin .quesito {
-					    background-color: #FCB150;
+					    background-color: #4d004d;
 					    -webkit-transform: rotate(32deg);
 					    transform: rotate(32deg);
 					  }
@@ -464,9 +468,9 @@ h1, h2, p, a, span{
 				}
         .os-percentages li {
 					width: 75px;
-					border-left: 1px solid #394264;
+					border-left: 1px solid #ffccff;
 					text-align: center;					
-					background: #50597b;
+					background: #990099;
 				}
 					.os {
 						margin: 0;
@@ -474,16 +478,16 @@ h1, h2, p, a, span{
 						font-size: 15px;		
 					}
 						.os.ios {
-							border-top: 4px solid #e64c65;
+							border-top: 4px solid #e600e6;
 						}
 						.os.mac {
-							border-top: 4px solid #11a8ab;
+							border-top: 4px solid #b300b3;
 						}
 						.os.linux {
-							border-top: 4px solid #fcb150;
+							border-top: 4px solid #4d004d;
 						}
 						.os.win {
-							border-top: 4px solid #4fc4f6;
+							border-top: 4px solid #800080;
 						}
 					.os-percentage {
 						margin: 0;
@@ -495,7 +499,7 @@ h1, h2, p, a, span{
 			}
 				.line-chart {
 					height: 200px;
-					background: #11a8ab;
+					background: #990099;
 				}
         /******************************************
 				LINE-CHART by @kseso http://codepen.io/Kseso/pen/phiyL
@@ -536,7 +540,7 @@ h1, h2, p, a, span{
 				  right: -4px;
 				  bottom: -3px;
 				  padding: 4px;
-				  background: #fff;
+				  background: #ffccff;
 				  border-radius: 50%;
 				}
 				[data-valor='23']:after {
@@ -545,7 +549,7 @@ h1, h2, p, a, span{
 				  right: -2.7rem;
 				  top: -1.7rem;
 				  padding: .3rem .5rem;
-				  background: #50597B;
+				  background: #cc00cc;
 				  border-radius: .5rem;
 				  -webkit-transform: rotate(45deg);
 				  transform: rotate(45deg);  
@@ -591,20 +595,19 @@ h1, h2, p, a, span{
 						display: block;
 						width: 70px;
 						line-height: 32px;
-						background: #50597b;
+						background: #cc00cc;
 						border-radius: 5px;
 						font-size: 14px;
 						text-align: center;
 						margin-right: 5px;
-						-webkit-transition: background .3s;
-						transition: background .3s;
 					}
 						.time-lenght-btn:hover {
 							text-decoration: none;
-							background: #e64c65;
+							background: #ffccff;
 						}
 				.month-data {
 					padding-top: 28px;
+          background-color: #990099;
 				}
 					.month-data p {
 						display: inline-block;
@@ -618,15 +621,16 @@ h1, h2, p, a, span{
 							font-size: 15px;
 						}
 						.increment {
-							color: #e64c65;
+							color: #ffccff;
 						}
 			.media {
 				height: 216px;
+        background-color: #cc00cc;
 			}
 				#media-display {
 					position: relative;
 					height: 180px;
-					background: #787878 url('http://www.fancinema.com.ar/wp-content/uploads/catwoman1.jpg') center top;
+					background: #990099 url('http://www.fancinema.com.ar/wp-content/uploads/catwoman1.jpg') center top;
 				}
 					#media-display .play {
 						position: absolute;
@@ -637,7 +641,7 @@ h1, h2, p, a, span{
 						padding: 2px 5px 2px 9px;
 					}
 						#media-display .play:hover {
-							border: 2px solid #e64c65;
+							border: 2px solid #ffccff;
 					}
 				.media-control-bar {
 					padding: 6px 0 0 15px;
@@ -651,7 +655,7 @@ h1, h2, p, a, span{
 					}
 						.media-btn:hover, .media-btn:hover span {
 							text-decoration: none;
-							color: #e64c65;
+							color: #ffccff;
 						}
 						.play {
 							margin-right: 100px
@@ -731,8 +735,8 @@ h1, h2, p, a, span{
 					margin: 10px;					
 				}
 					.add-button .icon:hover {
-						color: #e64c65;
-						border-color: #e64c65;
+						color: #ffccff;
+						border-color: #ffccff;
 					}
 				.user-name {
 					margin: 25px 0 16px;
@@ -747,7 +751,7 @@ h1, h2, p, a, span{
 					padding-top: 23px;
 				}
 					.profile-options li {
-						border-left: 1px solid #1f253d;
+						border-left: 1px solid #ffccff;
 					}
 						.profile-options p {
 							margin: 0;
@@ -757,39 +761,38 @@ h1, h2, p, a, span{
 							width: 99px;
 							line-height: 60px;
 							text-align: center;
-							-webkit-transition: background .3s;
-							transition: background .3s;				
-						}
+              color: #ffffff;
+}
 							.profile-options a:hover {
 								text-decoration: none;
-								background: #50597b;
+								background: #ffccff;
 							}
 							.profile-options a:hover.comments .icon {
-								color: #fcb150;
+								color: #4d004d;
 							}
 							.profile-options a:hover.views .icon {
-								color: #11a8ab;
+								color: #800080;
 							}
 							.profile-options a:hover.likes .icon {
-								color: #e64c65;
+								color: #b300b3;
 							}
 							.profile-options .icon {
 								padding-right: 10px;
 							}
 							.profile-options .comments {
-								border-top: 4px solid #fcb150;
+								border-top: 4px solid #4d004d;
 							}
 							.profile-options .views {
-								border-top: 4px solid #11a8ab;
+								border-top: 4px solid #800080;
 							}
 							.profile-options .likes {
-								border-top: 4px solid #e64c65;
+								border-top: 4px solid #b300b3;
 							}
 			.weather {
 				height: 555px;
 			}
 				.weather .titular {
-					background: #cc324b;
+					background: #990099;
 				}
 					.weather .titular .icon {
 						padding-right: 15px;
@@ -797,7 +800,7 @@ h1, h2, p, a, span{
 					}
 				.weather .current-day {
 					height: 135px;
-					background: #e64c65;
+					background: #cc00cc;
 				}
 					.weather .current-day p {
 						margin: 0;
@@ -822,15 +825,14 @@ h1, h2, p, a, span{
 				.weather .next-days a {
 					display: block;
 					line-height: 58px;
-					border-bottom: 1px solid #1f253d;
-					-webkit-transition: background .3s;
-					transition: background .3s;
+					border-bottom: 1px solid #ffccff;
+				  background-color: #990099;
 				}
 					.weather .next-days a:hover {
-						background: #50597b;
+						background: #ffccff;
 					}
 					.weather .next-days a:hover .day {
-						color: #e64c65;
+						color: #ffccff;
 					}
 					.weather .next-days-date {
 						padding-left: 20px;
@@ -844,9 +846,10 @@ h1, h2, p, a, span{
 						}
 			.tweets {
 				height: 375px;
+        background-color: #cc00cc;
 			}
 				.tweets .titular {
-					background: #35aadc;
+					background: #990099;
 				}
 					.tweets .titular .icon {
 						font-size: 18px;
@@ -854,7 +857,7 @@ h1, h2, p, a, span{
 					}
 				.tweet.first {
 					height: 150px;
-					border-bottom: 1px solid #1f253d;
+					border-bottom: 1px solid #ffccff;
 				}
 					.tweet p:first-child {
 						margin: 0;
@@ -865,11 +868,11 @@ h1, h2, p, a, span{
 						padding: 15px 30px 0;
 					}
 					.tweet-link {
-						color: #4fc4f6;
+						color: #990099;
 					}
 			.middle-container .social {
 				height: 205px;
-				background: #1f253d;
+				background: transparent;
 			}
 				.middle-container .social li {
 					margin-bottom: 12px;
@@ -889,10 +892,10 @@ h1, h2, p, a, span{
 							transition: background .3s;
 						}
 							.middle-container .social a:hover .facebook {
-								background: #1a4e95;
+								background: #ffccff;
 							}
 							.middle-container .social a:hover .icon.facebook {
-								background: #3468af;
+								background: #ffccff;
 							}
 						.middle-container .social .twitter {
 							background: #4fc4f6;
@@ -900,10 +903,10 @@ h1, h2, p, a, span{
 							transition: background .3s;
 						}
 							.middle-container .social a:hover .twitter {
-								background: #35aadc;
+								background: #ffccff;
 							}
 							.middle-container .social a:hover .icon.twitter {
-								background: #4fc4f6;
+								background: #ffccff;
 							}
 						.middle-container .social .googleplus {
 							background: #e64c65;
@@ -911,10 +914,10 @@ h1, h2, p, a, span{
 							transition: background .3s;
 						}
 							.middle-container .social a:hover .googleplus {
-								background: #cc324b;
+								background: #ffccff;
 							}
 							.middle-container .social a:hover .icon.googleplus {
-								background: #e64c65;
+								background: #ffccff;
 							}
 				.middle-container .social .icon {
 					float: left;
@@ -943,11 +946,11 @@ h1, h2, p, a, span{
 					padding-top: 10px;
 				}
 				.subscribe.button {
-					background: #11a8ab;
+					background: #cc00cc;
 					margin-top: 10px;
 				}
 					.subscribe.button:hover {
-						background: #0F9295;
+						background: #ffccff;
 					}
 			.account {
 				height: 390px;
@@ -956,11 +959,11 @@ h1, h2, p, a, span{
 					padding: 10px 0;
 				}
 				.sign-in.button {
-					background: #e64c65;
+					background: #cc00cc;
 					margin: 10px auto;
 				}
 					.sign-in.button:hover {
-						background: #cc324b;
+						background: #ffccff;
 					}
 				.account p { 
 					text-align: center;
@@ -976,7 +979,7 @@ h1, h2, p, a, span{
 					transition: background .3s;
 				}
 					.fb-sign-in:hover {
-						background: #1a4e95;
+						background: #ffccff;
 						text-decoration: none;
 					}
 				.fb-sign-in .icon {	
